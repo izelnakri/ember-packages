@@ -1,0 +1,6 @@
+make all packages have name and version on package.json
+
+
+
+
+make glimmer glimmer.html with .js bundle to show that it can work

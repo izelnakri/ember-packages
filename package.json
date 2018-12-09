@@ -1,0 +1,36 @@
+{
+  "name": "ember-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ember/-internals": "file:./vendor/packages/@ember/-internals",
+    "@ember/application": "file:./vendor/packages/@ember/application",
+    "@ember/controller": "file:./vendor/packages/@ember/controller",
+    "@ember/debug": "file:./vendor/packages/@ember/debug",
+    "@ember/deprecated-features": "file:./vendor/packages/@ember/deprecated-features",
+    "@ember/error": "file:./vendor/packages/@ember/error",
+    "@ember/runloop": "file:./vendor/packages/@ember/runloop",
+    "@ember/service": "file:./vendor/packages/@ember/service",
+    "@ember/string": "file:./vendor/packages/@ember/string",
+    "@glimmer/env": "^0.1.7",
+    "@glimmer/node": "^0.37.0",
+    "@glimmer/opcode-compiler": "^0.37.0",
+    "@glimmer/reference": "^0.37.0",
+    "@glimmer/runtime": "^0.37.0",
+    "backburner": "file:./vendor/packages/backburner",
+    "dag-map": "file:./vendor/packages/dag-map",
+    "ember-source": "^3.6.0",
+    "fs-extra": "^7.0.1",
+    "router_js": "file:./vendor/packages/router_js",
+    "@ember/canary-features": "file:./vendor/packages/@ember/canary-features",
+    "ember": "file:./vendor/packages/ember",
+    "@ember/polyfills": "file:./vendor/packages/@ember/polyfills",
+    "@ember/engine": "file:./vendor/packages/@ember/engine"
+  }
+}
