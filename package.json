@@ -11,13 +11,21 @@
   "dependencies": {
     "@ember/-internals": "file:./vendor/packages/@ember/-internals",
     "@ember/application": "file:./vendor/packages/@ember/application",
+    "@ember/array": "file:./vendor/packages/@ember/array",
+    "@ember/canary-features": "file:./vendor/packages/@ember/canary-features",
     "@ember/controller": "file:./vendor/packages/@ember/controller",
     "@ember/debug": "file:./vendor/packages/@ember/debug",
     "@ember/deprecated-features": "file:./vendor/packages/@ember/deprecated-features",
+    "@ember/engine": "file:./vendor/packages/@ember/engine",
     "@ember/error": "file:./vendor/packages/@ember/error",
+    "@ember/instrumentation": "file:./vendor/packages/@ember/instrumentation",
+    "@ember/object": "file:./vendor/packages/@ember/object",
+    "@ember/polyfills": "file:./vendor/packages/@ember/polyfills",
+    "@ember/routing": "file:./vendor/packages/@ember/routing",
     "@ember/runloop": "file:./vendor/packages/@ember/runloop",
     "@ember/service": "file:./vendor/packages/@ember/service",
     "@ember/string": "file:./vendor/packages/@ember/string",
+    "@ember/utils": "file:./vendor/packages/@ember/utils",
     "@glimmer/env": "^0.1.7",
     "@glimmer/node": "^0.37.0",
     "@glimmer/opcode-compiler": "^0.37.0",
@@ -25,12 +33,10 @@
     "@glimmer/runtime": "^0.37.0",
     "backburner": "file:./vendor/packages/backburner",
     "dag-map": "file:./vendor/packages/dag-map",
+    "ember": "file:./vendor/packages/ember",
     "ember-source": "^3.6.0",
     "fs-extra": "^7.0.1",
-    "router_js": "file:./vendor/packages/router_js",
-    "@ember/canary-features": "file:./vendor/packages/@ember/canary-features",
-    "ember": "file:./vendor/packages/ember",
-    "@ember/polyfills": "file:./vendor/packages/@ember/polyfills",
-    "@ember/engine": "file:./vendor/packages/@ember/engine"
+    "route-recognizer": "^0.3.4",
+    "router_js": "file:./vendor/packages/router_js"
   }
 }
